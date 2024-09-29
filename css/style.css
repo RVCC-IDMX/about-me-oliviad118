@@ -1,0 +1,32 @@
+body {
+    font-family:Quicksand;
+    background-color: #CE8AEA;
+    color :#FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Matemasie";
+    font-size: 45pt;
+}
+
+header {
+     text-align:center;
+}
+
+#hero, footer {
+    background-color: #DC0BF5;
+    text-align:center;
+    border-style: dotted;
+    border-radius: 12px;
+    border-width: 10px;
+    border-color: deeppink;
+}
+
+#hero img{
+    width:285px;
+}
+
+#bio{
+    text-align: center;
+    font-size: 16pt;
+}

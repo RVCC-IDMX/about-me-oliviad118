@@ -50,8 +50,21 @@ header {
 
 #gallery {
     text-align: center;
-    border-style: groove;
+    border-style: dashed;
     border-radius: 3px;
     border-width: 2px;
     border-color: deeppink;
+}
+
+/* Literature */
+
+#lit {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+#lit div {
+    max-width: 40rem;
+    margin: 0 auto;
+    text-indent: 50px;
 }

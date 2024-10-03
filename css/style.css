@@ -23,14 +23,20 @@ header {
     border-color: deeppink;
 }
 
+/* Hero Section */
+
 #hero img {
     width:285px;
 }
+
+/* Bio Section */
 
 #bio{
     text-align: center;
     font-size: 16pt;
 }
+
+/* Hobbies */
 
 #hobbies {
     font-size: 20px;
@@ -38,4 +44,14 @@ header {
     text-decoration-color: black;
     text-decoration-style: wavy;
     text-decoration-thickness: 14px;
+}
+
+/* Gallery */
+
+#gallery {
+    text-align: center;
+    border-style: groove;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: deeppink;
 }

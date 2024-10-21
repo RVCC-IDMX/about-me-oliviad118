@@ -8,6 +8,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family:"Matemasie";
     font-size: 30px;
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 header {
@@ -44,15 +46,16 @@ header {
     text-decoration-color: black;
     text-decoration-style: wavy;
     text-decoration-thickness: 14px;
+   
 }
 
 /* Gallery */
 
 #gallery {
     text-align: center;
-    border-style: dashed;
-    border-radius: 3px;
-    border-width: 2px;
+    border-style: double;
+    border-radius: 12px;
+    border-width: 10px;
     border-color: deeppink;
 }
 
@@ -67,4 +70,21 @@ header {
     max-width: 40rem;
     margin: 0 auto;
     text-indent: 50px;
+}
+
+@media screen {
+    min-width: 60 em;
+}
+
+#figure{
+    display: grid;
+    grid-template-columns: 2fre 1fr;
+}
+
+#figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
 }

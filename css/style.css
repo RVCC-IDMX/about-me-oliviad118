@@ -64,6 +64,8 @@ header {
 #lit {
     text-align: center;
     text-shadow: 2px 2px 5px black;
+    max-width: 100%;
+    columns: 20rem;
 }
 
 #lit div {
@@ -78,7 +80,7 @@ header {
 
 #figure{
     display: grid;
-    grid-template-columns: 2fre 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 #figcaption {
@@ -87,4 +89,14 @@ header {
     align-items: center;
     font-size: 2rem;
     margin-left: 1rem;
+}
+
+@media screen {
+    min-width: 100em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+gallery grid column {
+    grid-column: 1/-1;
 }

@@ -10,6 +10,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 header {
@@ -23,6 +25,8 @@ header {
     border-radius: 12px;
     border-width: 10px;
     border-color: deeppink;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 /* Hero Section */
@@ -97,6 +101,12 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-gallery grid column {
+#gallery grid column {
     grid-column: 1/-1;
+    color: #666;
+}
+
+video {
+    padding-top: 15px;
+    padding-bottom: 20px;
 }

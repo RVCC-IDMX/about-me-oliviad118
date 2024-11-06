@@ -115,5 +115,57 @@ video {
 
 #formelements {
     display: grid;
+    row-gap: .5em;
 }
 
+#contact{
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    margin-top: 5px;
+}
+
+fieldset{
+    border: 2px double black;
+    margin-top: 15px;
+    margin-bottom: 1em;
+}
+
+#legends{
+    background-color: black;
+    color: #CE8AEA;
+    padding: 5em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button{
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul{
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li{
+    margin: 1rem;
+}
+
+#contact button{
+    background-color: black;
+    color: #DC0BF5;
+    border: 2px solid white;
+    border-style: dotted;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+}
+
+#contactform{
+    background-color: black;
+    color: #DC0BF5;
+    border: 3px solid white;
+    border-style: dashed;
+    border-radius: 8px;
+    justify-self: center;
+}

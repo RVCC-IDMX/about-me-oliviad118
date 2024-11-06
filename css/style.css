@@ -110,3 +110,10 @@ video {
     padding-top: 15px;
     padding-bottom: 20px;
 }
+
+/* Contact Form */
+
+#formelements {
+    display: grid;
+}
+

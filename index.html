@@ -4,7 +4,6 @@
 <html lang="en">
     <!--the language: choosen for the page thats shown to the visitor-->
     
-    <p>This is an assignment for my Web Dev class. Olivia Denton.</p>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,22 +14,38 @@
 <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
 
 <link href="css/style.css" rel="stylesheet">
+<link href="css/nav.css" rel="stylesheet">
 
     <!--the title: is what the viewer sees-->
-    
-</head>
-<body>
-    
+
     <!--the body element contains all content shown to a visitor-->
 
+
+     <!-- the header shows logo and page title-->
     <header>
-    <!-- the header shows logo and page title-->
-<img src="imgs/logo-96X96.svg" alt="Blue origami logo">
-<h1>Web Dev I</h1>
+    <nav class="navbar">
+        <div class="logo">
+            <img
+                src="imgs/logo-96X96.svg"
+                class="log-img"
+                alt="Blue origami logo"
+            />
+            <h1 class="logo title">Web Dev I- Online</h1>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#bio" class="nav-links">Bio</a></li>
+                <li><a href="#gallery" class="nav-links">Gallery</a></li>
+                <li><a href="#lit" class="nav-links">Blog</a></li>
+                <li><a href="#contact" class="nav-links">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
     </header>
 
-<main>
     <!-- the main envelops important page content-->
+<main>
+    
 
     <section id="hero">
         <!-- hero section: shows profile image, name & location-->

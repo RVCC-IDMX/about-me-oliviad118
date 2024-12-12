@@ -1,6 +1,6 @@
 body {
-    font-family:Quicksand;
-    background-color: #CE8AEA;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #007A78;
     color :#FFFFFF;
 }
 
@@ -18,24 +18,37 @@ header {
      text-align:center;
 }
 
-#hero, footer {
-    background-color: #DC0BF5;
+#log-img{
+    width: 420px;
+    height: 410px;
+}
+
+#hero{
+    font-size: 30px;
     text-align:center;
-    border-style: dotted;
-    border-radius: 12px;
+    padding-top: 15px;
+}
+
+footer {
+    background-color: black;
+    text-align:center;
+    border-radius: 6px;
     border-width: 10px;
-    border-color: deeppink;
+    border-color: white;
     padding-top: 30px;
     padding-bottom: 15px;
     margin-bottom: 8px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 6px;
+    margin-right: 8px;
 }
 
 /* Hero Section */
 
 #hero img {
     width:285px;
+    box-shadow: 10px 20px 5px black;
+    padding: 1px;
+    
 }
 
 /* Bio Section */
@@ -43,44 +56,66 @@ header {
 #bio{
     text-align: center;
     font-size: 16pt;
+    text-shadow: 6px 6px 8px black;
+    padding-top: 1em;
 }
 
 /* Hobbies */
 
 #hobbies {
     font-size: 20px;
-    text-decoration-color: black;
-    text-decoration-thickness: 14px;
-   
+    padding-bottom: 1em;
+    text-shadow: 6px 6px 8px black;
+}
+
+ul{
+    text-align: center;
+    list-style-position: inside;
 }
 
 /* Gallery */
 
-#gallery {
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px 0;
     text-align: center;
-    border-style: double;
-    border-radius: 12px;
-    border-width: 10px;
-    border-color: deeppink;
+    font-family:"Matemasie";
+    font-size: 20px;
+}
+
+.gallery img {
+    flex-wrap: wrap;
+    width: 420px;
+    height: 410px;
+    margin: 10px 0;
+    box-shadow: 10px 20px 5px black;
+    padding: 5px;
+    display: block;
+}
+
+#gallery grid column {
+    grid-column: 1/-1;
+    color: #666;
 }
 
 /* Literature */
 
 #lit {
+    font-size: 14pt;
     text-align: center;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 6px 6px 8px black;
     max-width: 100%;
     columns: 20rem;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
 }
 
 #lit div {
     max-width: 40rem;
     margin: 0 auto;
-    text-indent: 50px;
-}
-
-@media screen {
-    min-width: 60 em;
+    text-indent: 55px;
 }
 
 #figure{
@@ -96,16 +131,7 @@ header {
     margin-left: 1rem;
 }
 
-@media screen {
-    min-width: 100em;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
 
-#gallery grid column {
-    grid-column: 1/-1;
-    color: #666;
-}
 
 video {
     padding-top: 15px;
@@ -120,6 +146,7 @@ video {
 }
 
 #contact{
+    font-size: 16pt;
     padding: 1rem;
     max-width: 600px;
     margin: 2rem auto;
@@ -134,7 +161,7 @@ fieldset{
 
 #legends{
     background-color: black;
-    color: #CE8AEA;
+    color: #007A78;
     padding: 5em;
 }
 
@@ -154,7 +181,7 @@ fieldset{
 
 #contact button{
     background-color: black;
-    color: #DC0BF5;
+    color: #007A78;
     border: 2px solid white;
     border-style: dotted;
     max-width: 400px;
@@ -164,9 +191,9 @@ fieldset{
 
 #contactform{
     background-color: black;
-    color: #DC0BF5;
+    color: #007A78;
     border: 3px solid white;
-    border-style: dashed;
+    border-style: dotted;
     border-radius: 8px;
     justify-self: center;
 }

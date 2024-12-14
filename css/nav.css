@@ -17,8 +17,8 @@
 /* font settings and smooth scrolling */
 
 html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20pt;
-    font-size: Quicksand;
     scroll-behavior: smooth;
     justify-items: flex-end;
 }
